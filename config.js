@@ -1,7 +1,7 @@
 module.exports = {
   port: process.env.PORT || 8080,
   db: {
-    prod: process.env.DATABASE_URL,
+    prod: 'mongodb+srv://alexasimakis:<alexasimakis>@mvc.8hij0.mongodb.net/mvc?retryWrites=true&w=majority',
     test: process.env.DATABASE_URL,
     options: {
       useNewUrlParser: true,
